@@ -4,6 +4,7 @@ e.waitUntil(
 caches.open("static").then(cache => {
 return cache.addAll([
 "./",
+"./index.html"  
 "./manifest.json",
 "./images/logo192.png"
 ]);
